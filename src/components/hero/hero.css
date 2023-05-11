@@ -15,11 +15,11 @@
     position: absolute;
     top: 150px;
     font-size: 35px;
+    display: flex;
 }
 
 .heroText {
     padding: 15px;
     border-radius: 20px;
     background-color: white;
-    
 }

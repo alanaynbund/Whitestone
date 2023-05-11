@@ -8,6 +8,9 @@ const Home = () => {
         <div>
             <Navbar/>
             <Hero/>
+            <div className="title">
+                <h1>Why Choose Whitestone?</h1>
+            </div>
             <MainContent/>
         </div>
     )
