@@ -21,7 +21,7 @@ const MainContent = () => {
                 </div>
                 
                 <div className="image">
-                    <img className="img" src="https://fidelity-funding.com/wp-content/uploads/2016/07/graph.jpg" alt="" />
+                    <img className="img" src="https://static.vecteezy.com/system/resources/previews/016/151/485/original/cartoon-business-graph-icon-in-comic-style-chart-sign-illustration-pictogram-diagram-business-splash-effect-concept-vector.jpg" alt="" />
                 </div>
             </div>
         </div>

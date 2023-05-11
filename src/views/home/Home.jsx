@@ -1,3 +1,4 @@
+import GetFunded from "../../components/getFunded/GetFunded"
 import Hero from "../../components/hero/Hero"
 import MainContent from "../../components/mainContent/MainContent"
 import Navbar from "../../components/navbar/Navbar"
@@ -12,6 +13,7 @@ const Home = () => {
                 <h1>Why Choose Whitestone?</h1>
             </div>
             <MainContent/>
+            <GetFunded/>
         </div>
     )
 }

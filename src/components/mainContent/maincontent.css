@@ -19,6 +19,7 @@
     width: 50%;
     display: flex;
     justify-content: center;
+    height: 85%;
 }
 
 .img{
@@ -27,4 +28,14 @@
 
 .info{
     font-size: 22px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    font-weight: bold;
+    background-color: #003580;
+    color: white;
+    font-size: 20px;
 }
