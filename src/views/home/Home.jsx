@@ -1,4 +1,5 @@
 import Contact from "../../components/contact/Contact"
+import Footer from "../../components/footer/Footer"
 import GetFunded from "../../components/getFunded/GetFunded"
 import Hero from "../../components/hero/Hero"
 import MainContent from "../../components/mainContent/MainContent"
@@ -18,6 +19,7 @@ const Home = () => {
             <Specialized/>
             <GetFunded/>
             <Contact/>
+            <Footer/>
         </div>
     )
 }

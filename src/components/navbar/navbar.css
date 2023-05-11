@@ -3,6 +3,7 @@
     background-color: #003580;
     display: flex;
     justify-content: center;
+    padding: 30px;
 }
 
 .navContainer{
@@ -17,4 +18,22 @@
 .navItems {
     display: flex;
     gap: 50px;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: michroma;
+    src: url(../../../public/Michroma-Regular.ttf)
+  }
+
+.logo {
+    font-family: michroma;
+    margin: 0px 30px 0px 0px;
+    border-bottom: 1px solid white;
+}
+
+.logo2 {
+    font-family: michroma;
+    font-weight: lighter;
+    margin: 0px 0px 0px 30px;
 }
