@@ -19,11 +19,18 @@
     display: flex;
     gap: 50px;
     font-size: 20px;
+    font-family: readex;
+    cursor: pointer;
 }
 
 @font-face {
     font-family: michroma;
     src: url(../../../public/Michroma-Regular.ttf)
+  }
+
+  @font-face {
+    font-family: readex;
+    src: url(../../../public/ReadexPro-Regular.ttf)
   }
 
 .logo {
@@ -36,4 +43,8 @@
     font-family: michroma;
     font-weight: lighter;
     margin: 0px 0px 0px 30px;
+}
+
+.groupLogo{
+    cursor: pointer;
 }

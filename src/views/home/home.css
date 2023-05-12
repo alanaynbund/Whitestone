@@ -4,4 +4,10 @@
     padding-top: 1px;
     padding-bottom: 1px;
     color: white;
+    font-family: readex;
 }
+
+@font-face {
+    font-family: readex;
+    src: url(../../../public/ReadexPro-Regular.ttf)
+  }

@@ -28,7 +28,14 @@
 
 .info{
     font-size: 22px;
+    font-family: readexlight;
 }
+
+@font-face {
+    font-family: readexlight;
+    src: url(../../../public/ReadexPro-Light.ttf)
+  }
+
 
 button{
     padding: 10px;
@@ -38,4 +45,5 @@ button{
     background-color: #003580;
     color: white;
     font-size: 20px;
+    font-family: readexlight;
 }

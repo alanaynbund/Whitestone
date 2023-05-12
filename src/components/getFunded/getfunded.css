@@ -5,6 +5,7 @@
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(143,142,161,1) 100%);
     
     padding-top: 20px;
+    font-family: readex;
 }
 
 .containerItems{
@@ -23,3 +24,8 @@ button{
     margin: 30px 0px 30px 0px;
     cursor: pointer;
 }
+
+@font-face {
+    font-family: readex;
+    src: url(../../../public/ReadexPro-Regular.ttf)
+  }

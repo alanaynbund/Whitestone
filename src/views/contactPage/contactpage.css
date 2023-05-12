@@ -1,0 +1,28 @@
+.cTitle{
+    text-align: center;
+}
+
+.map{
+    text-align: center;
+}
+
+.contactContainer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px;
+}
+
+.contactInfo{
+text-align: center;
+}
+
+.contactCards{
+    padding: 30px;
+    background-color: beige;
+    border-radius: 15px;
+}
+
+.ico{
+    font-size: 44px;
+}

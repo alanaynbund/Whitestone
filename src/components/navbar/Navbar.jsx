@@ -1,16 +1,34 @@
 import "./navbar.css"
+import { useNavigate, Link } from "react-router-dom"
 
 const Navbar = () => {
+    const navigate = useNavigate()
+
+    const handleClick = () => {
+        navigate("/")
+    }
+
+    const handleClick1 = () => {
+        navigate("/contact")
+    }
+
+    const handleClick2 = () => {
+       <Link to={"https://powerforms.docusign.net/2784902b-1f7e-46b9-a887-b96257a931c0?env=na4&acct=244d37cd-17b5-4aed-8a45-76f2f3c5f64c&accountId=244d37cd-17b5-4aed-8a45-76f2f3c5f64c"}/>
+    }
+
+
     return(
         <div className="navbar">
             <div className="navContainer">
-                <div className="groupLogo">
+                <div className="groupLogo" onClick={handleClick}>
                     <h1 className="logo">WHITESTONE</h1>
                     <h1 className="logo2">F U N D I N G</h1>
                 </div>
                 <div className="navItems">
-                    <p>Contact Us</p>
-                    <p>Apply Now</p>
+                    <p onClick={handleClick1}>Contact Us</p>
+                    <Link to={"https://powerforms.docusign.net/2784902b-1f7e-46b9-a887-b96257a931c0?env=na4&acct=244d37cd-17b5-4aed-8a45-76f2f3c5f64c&accountId=244d37cd-17b5-4aed-8a45-76f2f3c5f64c"}>
+                        <p onClick={handleClick2}>Apply Now</p>
+                    </Link>
                     <p>Privacy Policy</p>
                 </div>
             </div>
