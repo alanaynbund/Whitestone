@@ -13,8 +13,9 @@ const Navbar = () => {
     }
 
     const handleClick2 = () => {
-       <Link to={"https://powerforms.docusign.net/2784902b-1f7e-46b9-a887-b96257a931c0?env=na4&acct=244d37cd-17b5-4aed-8a45-76f2f3c5f64c&accountId=244d37cd-17b5-4aed-8a45-76f2f3c5f64c"}/>
+        navigate("/policy")
     }
+
 
 
     return(
@@ -26,10 +27,10 @@ const Navbar = () => {
                 </div>
                 <div className="navItems">
                     <p onClick={handleClick1}>Contact Us</p>
-                    <Link to={"https://powerforms.docusign.net/2784902b-1f7e-46b9-a887-b96257a931c0?env=na4&acct=244d37cd-17b5-4aed-8a45-76f2f3c5f64c&accountId=244d37cd-17b5-4aed-8a45-76f2f3c5f64c"}>
-                        <p onClick={handleClick2}>Apply Now</p>
+                    <Link to={"https://powerforms.docusign.net/2784902b-1f7e-46b9-a887-b96257a931c0?env=na4&acct=244d37cd-17b5-4aed-8a45-76f2f3c5f64c&accountId=244d37cd-17b5-4aed-8a45-76f2f3c5f64c" }style={{ textDecoration: 'none' }}target="_blank" rel="noopener noreferrer">
+                        <p className="apply">Apply Now</p>
                     </Link>
-                    <p>Privacy Policy</p>
+                    <p onClick={handleClick2}>Privacy Policy</p>
                 </div>
             </div>
         </div>

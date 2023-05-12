@@ -1,0 +1,23 @@
+.privTitle{
+    text-align: center;
+    font-family: readex;
+}
+
+.privacyContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-family: readex;
+}
+
+.privInfo{
+    display: flex;
+    max-width: 1024px;
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: readex;
+    src: url(../../../public/ReadexPro-Regular.ttf)
+  }

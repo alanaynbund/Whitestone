@@ -48,3 +48,8 @@
 .groupLogo{
     cursor: pointer;
 }
+
+.apply{
+    color: white;
+    text-decoration: none;
+}
