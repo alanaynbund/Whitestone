@@ -33,3 +33,14 @@ text-align: center;
     font-family: readex;
     src: url(../../../public/ReadexPro-Regular.ttf)
   }
+
+@media (max-width: 790px){
+    .contactContainer{
+        flex-direction: column;
+    }
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}

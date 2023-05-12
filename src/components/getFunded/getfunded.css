@@ -29,3 +29,10 @@ button{
     font-family: readex;
     src: url(../../../public/ReadexPro-Regular.ttf)
   }
+
+@media (max-width: 1080px){
+    .containerItems{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

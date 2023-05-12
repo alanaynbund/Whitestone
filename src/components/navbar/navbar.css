@@ -53,3 +53,9 @@
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 666px){
+    .navItems{
+        flex-direction: column;
+    }
+}

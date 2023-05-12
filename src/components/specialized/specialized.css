@@ -52,3 +52,10 @@ font-family: readex;
     font-family: readex;
     src: url(../../../public/ReadexPro-Regular.ttf)
   }
+
+@media (max-width: 457px){
+    .specContainerItems{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
