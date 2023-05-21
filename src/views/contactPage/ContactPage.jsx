@@ -26,6 +26,7 @@ const ContactPage = () => {
                     <FontAwesomeIcon icon={faInbox} className="ico"/>
                         <h1>Email</h1>
                         <h1>johny@whitestonefundingllc.com</h1>
+                        <h1>uw@whitestonefundingllc.com</h1>
                     </div>
                 </div>
             </div>

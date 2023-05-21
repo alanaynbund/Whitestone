@@ -1,0 +1,46 @@
+.infoContainer{
+    font-family: readex;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.infoWrapper{
+    max-width: 1240px;
+}
+
+.infoCards{
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.infoCard{
+    border: 3px solid blue;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.21);
+    height: 450px;
+}
+
+.infoCard > p{
+    text-align: left;
+    font-size: 22px;
+    
+}
+
+.infoCard:hover{
+    transition: 0.3s;
+    border: 3px solid rgb(228, 215, 37);
+}
+
+
+@font-face {
+    font-family: readex;
+    src: url(../../../public/ReadexPro-Regular.ttf)
+  }

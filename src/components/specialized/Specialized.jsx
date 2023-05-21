@@ -22,7 +22,7 @@ const Specialized = () => {
                         </div>}
                     </div>
                     <div className="specContainerItem">
-                        <h1 className="specTitle" onClick={() => setOpenCredit(!openCredit)}><FontAwesomeIcon icon={faCreditCard} /> Line of Credits</h1>
+                        <h1 className="specTitle" onClick={() => setOpenCredit(!openCredit)}><FontAwesomeIcon icon={faCreditCard} /> Lines of Credit</h1>
                         {openCredit && <div className="creditInfo">
                             <p>Revolving lines of credit are an ideal option for modern entrepreneurs. This funding method allows you to access funds as required and pay them back with regular, fixed payments. Once you've repaid your outstanding balance, you can continue to draw from that pool of capital repeatedly.</p>
                             

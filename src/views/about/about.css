@@ -1,0 +1,58 @@
+*{
+    font-family: readex;
+}
+
+.aboutHero{
+    background: #ffffff;
+    background: linear-gradient(90deg,#ffffff 0%, #d5d5d5 80%);
+    background: -webkit-linear-gradient(90deg,#ffffff 0%, #d5d5d5 80%);
+    background: -moz-linear-gradient(90deg,#ffffff 0%, #d5d5d5 80%);
+
+    height: 330px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.heroItems{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.aboutInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutInfoWrapper{
+    max-width: 1024px;
+    margin-left: 500px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.aboutInfoItem{
+    border: 3px solid blue;
+    border-radius: 10px;
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.21);
+    padding: 30px;
+}
+
+.aboutInfoItem:hover{
+    transition: 0.3s;
+    border: 3px solid rgb(228, 215, 37);
+}
+
+@font-face {
+    font-family: readex;
+    src: url(../../../public/ReadexPro-Regular.ttf)
+  }

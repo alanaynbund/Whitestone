@@ -1,5 +1,6 @@
 import Contact from "../../components/contact/Contact"
 import Footer from "../../components/footer/Footer"
+import FundInfo from "../../components/fundInfo/FundInfo"
 import GetFunded from "../../components/getFunded/GetFunded"
 import Hero from "../../components/hero/Hero"
 import MainContent from "../../components/mainContent/MainContent"
@@ -17,6 +18,7 @@ const Home = () => {
             </div>
             <MainContent/>
             <Specialized/>
+            <FundInfo/>
             <GetFunded/>
             <Contact/>
             <Footer/>
