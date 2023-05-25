@@ -20,6 +20,10 @@ const Navbar = () => {
         navigate("/about")
     }
 
+    const handleClick4 = () => {
+        navigate("/industries")
+    }
+
 
     return(
         <div className="navbar">
@@ -30,6 +34,7 @@ const Navbar = () => {
                 </div>
                 <div className="navItems">
                     <p onClick={handleClick1}>Contact Us</p>
+                    <p onClick={handleClick4}>Industries Funded</p>
                     <p onClick={handleClick3}>About Us</p>
                     <Link to={"https://powerforms.docusign.net/2784902b-1f7e-46b9-a887-b96257a931c0?env=na4&acct=244d37cd-17b5-4aed-8a45-76f2f3c5f64c&accountId=244d37cd-17b5-4aed-8a45-76f2f3c5f64c" }style={{ textDecoration: 'none' }}target="_blank" rel="noopener noreferrer">
                         <p className="apply">Apply Now</p>
